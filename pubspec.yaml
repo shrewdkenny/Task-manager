@@ -1,0 +1,35 @@
+name: to_do
+description: "A new Flutter project."
+
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  flutter_native_splash: ^2.4.1
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter_lints: ^3.0.0
+flutter_native_splash:
+  color: "008080"
+  color_dark: "008080"
+  image: lib/assets/images/task.png
+  image_dark: lib/assets/images/task.png
+
+  android_12:
+    icon_background_color: "008080"
+    icon_background_color_dark: "008080"
+    image: lib/assets/images/task.png
+    image_dark: lib/assets/images/task.png
+
+flutter:
+  uses-material-design: true
